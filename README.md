@@ -39,7 +39,7 @@ Pour exécuter l'application localement, suivez ces étapes :
 - lib/models: Définit les modèles de données pour les régions, départements et communes.
 - lib/services: Gère les services pour récupérer les données depuis une source externe.
 - lib/pages: Contient les pages principales de l'application.
-
+---------------------------------------------------------------------------------------------
 - lib/  
   - components/  
     - commune_lister.dart  
