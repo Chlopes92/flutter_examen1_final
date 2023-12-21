@@ -40,24 +40,24 @@ Pour exécuter l'application localement, suivez ces étapes :
 - lib/services: Gère les services pour récupérer les données depuis une source externe.
 - lib/pages: Contient les pages principales de l'application.
 
-lib/  
-  components/  
-    commune_lister.dart  
-    departement_lister.dart  
-    region_lister.dart  
-  models/  
-    commune.dart  
-    departement.dart  
-    region.dart  
-  services/  
-    commune_service.dart  
-    departement_service.dart  
-    region_service.dart  
-  pages/  
-    commune_page.dart  
-    departement_page.dart  
-    region_page.dart  
-  main.dart  
+- lib/  
+  - components/  
+    - commune_lister.dart  
+    - departement_lister.dart  
+    - region_lister.dart  
+  - models/  
+    - commune.dart  
+    - departement.dart  
+    - region.dart  
+  - services/  
+    - commune_service.dart  
+    - departement_service.dart  
+    - region_service.dart  
+  - pages/  
+    - commune_page.dart  
+    - departement_page.dart  
+    - region_page.dart  
+  - main.dart  
 
 # ⚙️ Configuration requise
 
