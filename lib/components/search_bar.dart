@@ -184,6 +184,8 @@ class _SearchBarAppState extends State<SearchBarApp> {
                   return GestureDetector(
                     onTapDown: (detail) {
                       updateSearchQuery(searchresults[index]);
+                      searchBarHasFocus.requestFocus();  // Demander le focus à la searchBar
+                      search(_searchController.text);  // Filtrer la liste avec le contenu actuel de la searchBar
                     },
                     child: Container(
                       decoration:  const BoxDecoration(
