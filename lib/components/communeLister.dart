@@ -3,9 +3,10 @@ import 'package:flutter_examen1/models/commune.model.dart';
 import 'package:flutter_examen1/services/commune.service.dart';
 
 class CommuneLister extends StatefulWidget {
-  const CommuneLister({Key? key, required this.codeDepartement}) : super(key: key);
+  const CommuneLister({Key? key, required this.codeDepartement, required this.onCommuneTap}) : super(key: key);
 
   final String codeDepartement;
+  final void Function(Commune) onCommuneTap;
 
   @override
   _CommuneListerState createState() => _CommuneListerState();
@@ -55,16 +56,7 @@ class _CommuneListerState extends State<CommuneLister> {
                     // Vous pouvez gérer onTap ici
                     onTap: () {
                       // Naviguer vers la page listant toutes les communes du département
-                      // Vous devrez créer cette page et passer le code du département
-                      // pour charger la liste appropriée.
-                      // Exemple : Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(
-                      //     builder: (context) => PageListeCommunesDuDepartement(
-                      //       codeDepartement: commune.codeDepartement,
-                      //     ),
-                      //   ),
-                      // );
+                      widget.onCommuneTap(commune);
                     },
                   ),
                 ),
