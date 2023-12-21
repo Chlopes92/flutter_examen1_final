@@ -9,13 +9,9 @@ Pour exécuter l'application localement, suivez ces étapes :
   https://github.com/Chlopes92/flutter_examen1_final.git
 - Ouvrez le dossier projet dans VSCode ou votre IDE préféré.
   Dans un terminal, lancer:
-
   > flutter upgrade
-  
   > flutter pub get
-  
   > flutter doctor
-  
   > flutter run
 
 # 🎯 Fonctionnalités
