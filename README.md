@@ -61,5 +61,6 @@ Pour exécuter l'application localement, suivez ces étapes :
 
 # ⚙️ Configuration requise
 
-Flutter SDK
-Dart SDK
+- Flutter SDK
+- Dart SDK
+
