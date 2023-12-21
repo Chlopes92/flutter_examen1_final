@@ -52,7 +52,7 @@ class CommunePage extends StatelessWidget {
             backgroundColor: Theme.of(context).colorScheme.inversePrimary,
             iconTheme: const IconThemeData(color: Colors.white),
             title: Text(
-              'Département: $regionCode',
+              'Département: ${departement.nom}',
               style: const TextStyle(
                 color: Colors.white,
               ),
