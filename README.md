@@ -1,6 +1,6 @@
 # 🗺️ Projet d'Exploration Régionale
 
-Ce projet Flutter explore les données régionales, départementales et communales en France. L'application fournit des informations détaillées sur les régions, les départements et les communes, telles que la population, les codes postaux, etc. En faisant un appel à l'API : 🔗https://geo.api.gouv.fr/decoupage-administratif/departements
+Ce projet Flutter explore les données régionales, départementales et communales en France. L'application fournit des informations détaillées sur les régions, les départements et les communes, telles que la population, les codes postaux, etc. En faisant un appel à l'API : 🔗 https://geo.api.gouv.fr/decoupage-administratif/departements
 
 # 🚀 Comment démarrer
 
@@ -9,9 +9,13 @@ Pour exécuter l'application localement, suivez ces étapes :
   https://github.com/Chlopes92/flutter_examen1_final.git
 - Ouvrez le dossier projet dans VSCode ou votre IDE préféré.
   Dans un terminal, lancer:
+
   > flutter upgrade
+  
   > flutter pub get
+  
   > flutter doctor
+  
   > flutter run
 
 # 🎯 Fonctionnalités
