@@ -95,9 +95,10 @@ class _SearchBarAppState extends State<SearchBarApp> {
                   onSubmitted: (value) {
                     // print("Submitting $value");
                     String regionCode = getCode(value);
+                    String region = value;
                     print(value);
                     Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => DepartementPage(regionCode: regionCode)),
+                      MaterialPageRoute(builder: (context) => DepartementPage(regionCode: regionCode, value: region)),
                     );
                   },
                   onChanged: (value) {
