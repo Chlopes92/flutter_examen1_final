@@ -55,12 +55,15 @@ class _DepartementListerState extends State<DepartementLister> {
                     onTap: () {
                       // Naviguer vers la page listant toutes les communes du département
                       Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => CommunePage(regionCode: widget.regionCode),
-                        ),
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => CommunePage(
+                              regionCode: widget.regionCode,
+                              departement: departement, // Passer le département sélectionné
+                            ),
+                          ),
                       );
-                    },
+                    }
                   ),
                 ),
               );
