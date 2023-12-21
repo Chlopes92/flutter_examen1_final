@@ -17,6 +17,7 @@ class DepartementPage extends StatelessWidget {
         children: [
           AppBar(
             backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+            iconTheme: const IconThemeData(color: Colors.white),
             title: Text(
               'Région: $value',
             style: const TextStyle(
